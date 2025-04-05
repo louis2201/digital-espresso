@@ -40,7 +40,7 @@
 .header ul li::after {
     content: '';
     height: 3px;
-    width: 100%;
+    width: 0%;
     background: #009688;
     position: absolute;
     left: 0;
@@ -65,7 +65,29 @@
 
 .footer p {
     color: white;
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 12px;
     padding: 10px;
+    margin-bottom: 5px;
+}
+
+.greetings {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+}
+
+.greetings h1 {
+    font-size: 65px;
+    margin-top: 80px;
+}
+
+.greetings p {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 20px;
+    font-style: italic;
 }
