@@ -30,29 +30,30 @@
     width: 75px;
     height: 75px;
     cursor: pointer;
-    margin-left: 150px;
+    margin-left: 95px;
 }
 
 .header ul li {
     list-style: none;
     display: inline-block;
-    margin: 0 20px;
+    margin-right: 80px;
     position: relative;
     text-decoration: none;
     color: #fff8f0;
     font-weight: bold;
     font-size: 16px;
+
 }
 
 .header ul li::after {
     content: '';
-    height: 3px;
-    width: 0%;
-    background: #9a7b4f;
+    height: 2px;
+    width: 0;
+    background: #fff;
     position: absolute;
     left: 0;
-    bottom: -10px;
-    transition: 0.3s;
+    bottom: -5px;
+    transition: 0.3s ease;
 }
 
 .header ul li:hover::after {
@@ -107,7 +108,7 @@
     align-items: center;
     justify-content: center;
     flex-grow: 1;
-    margin: 30px auto;
+    margin: 70px auto;
     max-width: 750px;
     border: 2.5px solid #9a7b4f;
     border-radius: 12px;
@@ -143,10 +144,9 @@
 }
 
 .branches-container h1 {
-    font-size: 36px;
+    font-size: 37px;
     color: #f5e8d8;
     margin-bottom: 30px;
-    font-style: italic;
     text-align: center;
 }
 
@@ -174,10 +174,12 @@
     font-size: 20px;
     color: #f5e8d8;
     margin-bottom: 5px;
+
 }
 
 .branch-item p {
     font-size: 14px;
+    font-style: italic;
     color: #e0d6c5;
     margin: 0;
 }
