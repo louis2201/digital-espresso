@@ -41,11 +41,11 @@
     content: '';
     height: 3px;
     width: 0%;
-    background: #009688;
+    background: #9a7b4f;
     position: absolute;
     left: 0;
     bottom: -10px;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .header ul li:hover::after {
