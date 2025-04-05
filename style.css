@@ -13,20 +13,23 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)), url(images/beans.jpg); 
     background-size: cover;
     background-position: center;
+    overflow: hidden;
 }
 
 .header {
-    width: 85%;
-    margin-top: 20px;
-    padding: 35px 0;
+    width: 100%;
+    padding: 0px 5px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    background-color: rgba(154, 123, 79, 0.85); /* brown with slight transparency */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .logo {
-    width: 120px;
+    width: 75px;
+    height: 75px;
     cursor: pointer;
-    margin-bottom:20px;
     margin-left: 150px;
 }
 
@@ -35,6 +38,10 @@
     display: inline-block;
     margin: 0 20px;
     position: relative;
+    text-decoration: none;
+    color: #fff8f0;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 .header ul li::after {
